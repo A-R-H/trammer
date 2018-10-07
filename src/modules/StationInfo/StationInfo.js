@@ -8,7 +8,7 @@ class StationInfo extends Component {
     const s = dids.length === 1 ? "" : "s";
     return (
       <div className="stationinfobox">
-        <p>{`${station} - ${dids.length} tram${s}`}</p>
+        <p id="stationname">{`${station} - ${dids.length} tram${s}`}</p>
         {dids.map((did, i) => {
           return (
             <TramInfo

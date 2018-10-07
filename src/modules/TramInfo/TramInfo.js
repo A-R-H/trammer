@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./TramInfo.css";
 
 class TramInfo extends Component {
   render() {

@@ -18,7 +18,7 @@ class TimeDisplay extends Component {
       <div id="mainbox">
         <div id="timedisplaybox">
           {gotDids && (
-            <div className="didsbox">
+            <div id="didsbox">
               {traffDids ? (
                 <StationInfo dids={traffDids} station="Trafford Bar" />
               ) : (
@@ -39,7 +39,9 @@ class TimeDisplay extends Component {
           {!gotDids && <div className="didsbox">Loading</div>}
         </div>
         <div id="refreshbox">
-          <button onClick={this.getTramTimes}>Refresh</button>
+          <button id="refreshbutton" onClick={this.getTramTimes}>
+            Refresh
+          </button>
         </div>
       </div>
     );

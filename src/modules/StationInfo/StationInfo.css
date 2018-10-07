@@ -2,3 +2,7 @@
   height: 33%;
   text-align: center;
 }
+
+#stationname {
+  font-weight: bold;
+}
