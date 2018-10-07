@@ -1,14 +1,7 @@
 import axios from "axios";
-let uri = process.env.URI;
-const DB_URL = process.env.DB_URL;
+const uri = process.env.ocp || require("../config");
 
-if (!uri) {
-  uri = process.env.DB_URL || require("../config");
-}
-
-// uri = require("../config");
-
-const Get = params => {
+const Get = () => {
   return axios.get(`${uri}/api/tram`);
 };
 
