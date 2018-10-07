@@ -1,5 +1,5 @@
 import axios from "axios";
-let uri = process.env.uri;
+let uri = process.env.URI;
 
 if (!uri) {
   uri = require("../config");
