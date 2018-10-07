@@ -1,0 +1,28 @@
+#mainbox {
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: palegoldenrod;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#timedisplaybox {
+  min-height: 75%;
+  border: 1px solid black;
+}
+
+#refreshbox {
+  min-height: 25%;
+  margin: 0 auto;
+  border: 1px solid red;
+  width: 100%;
+}
+
+#refreshbox button {
+  margin: 0 auto;
+}
+
+.didsbox {
+  height: 100%;
+}

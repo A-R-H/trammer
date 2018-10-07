@@ -1,5 +1,2 @@
-trammer/node_modules
-trammer/src/config
-
-trammer-back/node_modules
-trammer-back/config
+node_modules
+src/config
