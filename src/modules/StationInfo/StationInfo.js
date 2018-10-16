@@ -17,6 +17,7 @@ class StationInfo extends Component {
               wait={did.wait}
               carr={did.carr}
               status={did.stat}
+              line={did.line}
             />
           );
         })}
